@@ -19,7 +19,7 @@ spring:
     stream:
       bindings:
         output-out-0:
-          destination: rb1j5rt0-updaccount
+          destination: rb1j5rt0-updaccountbc
         input-in-0:
           destination: rb1j5rt0-bootcoinout
 server:
