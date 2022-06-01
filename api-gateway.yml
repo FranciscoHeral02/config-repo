@@ -20,6 +20,14 @@ spring:
         uri: lb://ms-credit-service
         predicates:
           - Path=/Credits/**
+      - id: ms-yanki-service
+        uri: lb://ms-yanki-service
+        predicates:
+            - Path=/YankiMobile/**
+      - id: ms-bootcoin-service
+        uri: lb://ms-bootcoin-service
+        predicates:
+            - Path=/BootCoin/**
 #server config  
 server:
   port: 8080
