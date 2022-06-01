@@ -1,15 +1,4 @@
 spring:
-  application:
-    name: ms-credit-service
-  config:
-    import: optional:configserver:http://localhost:8081
-  cloud:
-    config:
-      uri: http://localhost:8081
-
-
-
-spring:
   data:
     mongodb:
       uri: mongodb+srv://trainingdbnttdata:zMaT0bwJ86xps4wN@proyectobootcamp.jyiov.mongodb.net/credit
