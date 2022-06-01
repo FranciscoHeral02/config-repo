@@ -21,7 +21,7 @@ spring:
         output-out-0:
           destination: rb1j5rt0-updaccountbc
         input-in-0:
-          destination: rb1j5rt0-bootcoinout
+          destination: rb1j5rt0-yankiout
 server:
   port: 9094
 eureka:
