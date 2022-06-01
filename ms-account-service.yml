@@ -3,7 +3,7 @@ spring:
     mongodb:
       uri: mongodb+srv://trainingdbnttdata:zMaT0bwJ86xps4wN@proyectobootcamp.jyiov.mongodb.net/bootcoins
   application:
-    name: ms-bootcoin-service
+    name: ms-account-service
   kafka:
     bootstrap-servers: moped-01.srvs.cloudkafka.com:9094,moped-02.srvs.cloudkafka.com:9094,moped-03.srvs.cloudkafka.com:9094
     properties:
