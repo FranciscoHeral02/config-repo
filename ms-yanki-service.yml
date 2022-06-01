@@ -22,10 +22,6 @@ spring:
           destination: rb1j5rt0-updaccount
         input-in-0:
           destination: rb1j5rt0-yankiout
-    config:
-      uri: http://localhost:8081
-  config:
-    import: optional:configserver:http://localhost:8081
 server:
   port: 9093
 eureka:
