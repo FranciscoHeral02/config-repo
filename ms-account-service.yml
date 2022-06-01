@@ -15,7 +15,7 @@ spring:
           config: org.apache.kafka.common.security.scram.ScramLoginModule required username="rb1j5rt0" password="R9oqA5r52g5TJoYxd6S_I3xrE9XGQ2gQ";
   cloud:
     function:
-      definition: input,bootcoin
+      definition: input
     stream:
       bindings:
         input-in-0:
